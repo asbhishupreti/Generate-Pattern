@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Creater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+    </header>
+    <div class="generatep ">
+      <div>
+        <h1>Generate Pattern</h1>
+        <p>Pattern Generate revise your coding Pattern in easy way. </p>
+      </div>
+      <h3 class="h3">Select Pattern</h3>
+        <div class="select-option">
+          <label for="pattern"></label><br>
+          <select class="pattern" id="patternSelect">
+            <option value="">Select</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="flag">Flag</option>
+            <option value="hollowrectangle">HollowRectangle</option>
+            <option value="traingle">Traingle</option>
+          </select><br>
+          <!-- <input class="search" type="text" placeholder="Search..." > -->
+          <h3 class="size" id="patternSize">Pattern Size</h3>
+          <input  type="number" id="rangeInput" placeholder="Size e.g. 5S"><br>
+          <!-- <input class="range"  type="range" min="0" max="5" value=""><br> -->
+          <input class="check" type="checkbox">Animate (seconds)<br>
+          <!-- <input type="text" placeholder="Delay e.g. 0.3"><br> -->
+          <button id="gbutton" onclick="printpattern()">Generate</button>
+        </div>
+    </div>
+  <div class="output">
+    <h3>Pattern</h3>
+    <textarea id="output" readonly></textarea><br>
+    <button class="copy">Copy</button>
+    <button class="show">< >Show Code</button>
+    <button class="clear">Clear</button>
+  </div>
+  <!-- <div id="pattern"></div> -->
+  <script src="script.js"></script>
+</body>
+</html>

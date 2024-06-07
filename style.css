@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.head{
+    border-top: 55px solid gray;
+    padding-top: 0%;
+    object-fit: cover;
+}
+p{
+    color: gray
+}
+.h3{
+    margin-left: 10px;
+}
+.select-option{
+    margin-left: 12px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#pattern{
+    box-sizing: content-box;
+}
+.search{
+    margin-top: 2px;
+    size: 10px 10px;
+}
+.size{
+    margin-bottom: 2px;
+}
+.check{
+    margin-top: 15px;
+}
+#gbutton{
+    padding: 10px 60px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gbutton:hover{
+    background-color: #0056b3;
+    color: cyan;
+}
+.output{
+    text-align: center;
+    margin-top: -230px;
+    margin-left: 30px;
+   
+}
+#output{
+    padding: 39px 100px;
+    margin-top: 20px;
+}
+.copy{
+    padding: 10px 20px;
+    background-color: rgb(87, 87, 208);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.copy:hover{
+    background-color: blue;
+    color: cyan;
+}
+.show{
+    padding: 10px 30px;
+    background-color: green;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.show:hover{
+    background-color: rgb(14, 41, 14);
+    color: cyan;
+}
+.clear{
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    margin-left: 80px;
+    border: 1px solid red;
+    font: bold;
+    border-radius: 5px;
+}
+.clear:hover{
+    background-color: red;
+    color: white;
+}
